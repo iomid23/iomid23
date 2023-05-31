@@ -1,6 +1,6 @@
 <br clear="both">
 
-<h2 align="left">Hi 👋! My name is OMID and I'm a Web Developer from Germany</h2>
+<h2 align="center">Hi 👋! My name is OMID and I'm a Web Developer from Germany</h2>
 
 ###
 
@@ -45,6 +45,6 @@
 
 ###
 
-<h1 align="center">Hello World!!</h1>
+<h2 align="center">Hello World!!</h2>
 
 ###
