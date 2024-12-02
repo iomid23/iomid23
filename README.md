@@ -24,7 +24,8 @@ I’m a Senior Frontend Developer specializing in **React.js** and modern fronte
 ### **Backend & Database**  
 ![Node.js](https://img.shields.io/badge/node.js-%23323330.svg?style=for-the-badge&logo=node.js&logoColor=%23F7DF1E)   
 ![Express](https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge)   
-![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)   
+![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)  
+![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white)   
 
 ### **Tools & Others**  
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)   
