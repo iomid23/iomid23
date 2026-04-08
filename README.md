@@ -1,57 +1,53 @@
-### Hi there! 👋  
-I’m a Senior Frontend Developer specializing in **React.js** and modern frontend technologies. With extensive experience in building responsive and user-friendly web applications, I’m dedicated to delivering high-quality code while continuously improving my development skills.  
+# Omid Amini — Senior Fullstack Developer
 
----  
+Based in Germany · 10+ years building production systems · Currently [@Nobilia](https://www.nobilia.de)
 
-## 💻 Tech Stack  
+---
 
-### **Languages & Frameworks**  
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)   
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)   
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)   
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)   
-![Sass](https://img.shields.io/badge/sass-%23CC6699.svg?style=for-the-badge&logo=sass&logoColor=white)   
+I build systems that actually matter. At Nobilia, I reduced daily manual order processing from 300+ to under 20 through automation — an 80% operational improvement that transformed how the team works every day. Before that, I worked on authentication infrastructure at [Tapsi](https://tapsi.ir) (Iran's leading ride-hailing platform) and built admin & employee dashboards for financial platforms.
 
-### **Frontend**  
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)   
-![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white)   
-![React Router](https://img.shields.io/badge/react_router-%23CA4245.svg?style=for-the-badge&logo=react-router&logoColor=white)   
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)   
-![Tailwind CSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)   
-![MUI](https://img.shields.io/badge/MUI-%230081CB.svg?style=for-the-badge&logo=material-ui&logoColor=white)   
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)  
+I work across the full stack but care deeply about the interfaces people actually use — and the backend logic that makes them reliable.
 
-### **Backend & Database**  
-![Node.js](https://img.shields.io/badge/node.js-%23323330.svg?style=for-the-badge&logo=node.js&logoColor=%23F7DF1E)   
-![Express](https://img.shields.io/badge/express-%23404d59.svg?style=for-the-badge)   
-![MongoDB](https://img.shields.io/badge/mongodb-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)  
-![Next.js](https://img.shields.io/badge/next.js-black?style=for-the-badge&logo=next.js&logoColor=white)   
+---
 
-### **Tools & Others**  
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)   
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)   
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)   
-![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)   
-![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)  
+## Stack
 
----  
+**Frontend**
+TypeScript · React · Next.js · Tailwind CSS · Redux
 
-## 📊 GitHub Stats  
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=iomid23&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=iomid23&theme=radical&hide_border=false)<br/>  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)  
+**Backend & Data**
+Node.js · Express · REST APIs · PowerShell Automation · Prisma
 
----  
+**Infrastructure**
+Vercel · Git · CI/CD · Resend · Domain & DNS Management
 
-## 🌐 Connect with me  
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://www.instagram.com/iomid23/)   
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/iomid23/)  
+---
 
----  
+## What I've shipped
 
-### ✍️ Random Dev Quote  
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)  
+**Nobilia — Order Processing Automation** *(2023 – present)*
+Rebuilt the import and order processing pipeline using PowerShell scripts and API integrations. Result: manual workload dropped from 300+ daily orders to under 20. Upcoming: largest online kitchen & furniture configurator in Europe (launching 2027).
 
----  
+**Tapsi.ir — Authentication Systems** *(Freelance)*
+Contributed to auth infrastructure at Iran's Uber-equivalent platform. Focus on security, session management and scalability.
 
-[![](https://visitcount.itsvg.in/api?id=iomid23&icon=0&color=0)](https://visitcount.itsvg.in)
+**Sarafi.online — Admin & Staff Dashboards** *(Freelance)*
+Built full admin and employee-facing dashboards for a financial exchange platform.
+
+**omidamini.de — Personal Portfolio** *(2026)*
+Next.js 15 · TypeScript · Tailwind · Prisma · Resend
+
+---
+
+## GitHub Stats
+
+![Stats](https://github-readme-stats.vercel.app/api?username=iomid23&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
+![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&theme=dark&hide_border=true&layout=compact&count_private=true)
+
+> Most of my production work lives in private company repositories.
+
+---
+
+## Contact
+
+[omidamini.de](https://omidamini.de) · [LinkedIn](https://linkedin.com/in/iomid23)
