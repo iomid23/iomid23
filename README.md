@@ -51,7 +51,7 @@ Whether you need a professional website, an online shop, a cross-platform app, o
 ### GitHub Insights
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=iomid23&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="Omid's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api?username=iomid23&theme=dark&hide_border=true&include_all_commits=true&count_private=true&show_icons=true" alt="Omid's GitHub Stats" height="180" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&theme=dark&hide_border=true&layout=compact&count_private=true" alt="Top Languages" height="180" />
 </p>
 
