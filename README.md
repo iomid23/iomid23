@@ -1,53 +1,66 @@
-# Omid Amini — Senior Fullstack Developer
+# Omid Amini — Senior Fullstack & EDI Developer
 
-Based in Germany · 10+ years building production systems · Currently [@Nobilia](https://www.nobilia.de)
-
----
-
-I build systems that actually matter. At Nobilia, I reduced daily manual order processing from 300+ to under 20 through automation — an 80% operational improvement that transformed how the team works every day. Before that, I worked on authentication infrastructure at [Tapsi](https://tapsi.ir) (Iran's leading ride-hailing platform) and built admin & employee dashboards for financial platforms.
-
-I work across the full stack but care deeply about the interfaces people actually use — and the backend logic that makes them reliable.
+**Based in Germany · 10+ years of experience · Available for projects**
 
 ---
 
-## Stack
+### What I do
 
-**Frontend**
-TypeScript · React · Next.js · Tailwind CSS · Redux
+I build software that works at scale — from modern web applications to enterprise automation systems that keep businesses running efficiently.
 
-**Backend & Data**
-Node.js · Express · REST APIs · PowerShell Automation · Prisma
+Whether you need a professional website, an online shop, a cross-platform app, or complex EDI and process automation — I deliver production-ready solutions with direct communication, no agency overhead, and full ownership for you.
 
-**Infrastructure**
-Vercel · Git · CI/CD · Resend · Domain & DNS Management
+👉 **[omidamini.de](https://omidamini.de)**
 
 ---
 
-## What I've shipped
+### What I offer
 
-**Nobilia — Order Processing Automation** *(2023 – present)*
-Rebuilt the import and order processing pipeline using PowerShell scripts and API integrations. Result: manual workload dropped from 300+ daily orders to under 20. Upcoming: largest online kitchen & furniture configurator in Europe (launching 2027).
-
-**Tapsi.ir — Authentication Systems** *(Freelance)*
-Contributed to auth infrastructure at Iran's Uber-equivalent platform. Focus on security, session management and scalability.
-
-**Sarafi.online — Admin & Staff Dashboards** *(Freelance)*
-Built full admin and employee-facing dashboards for a financial exchange platform.
-
-**omidamini.de — Personal Portfolio** *(2026)*
-Next.js 15 · TypeScript · Tailwind · Prisma · Resend
+| Service | Description |
+| :--- | :--- |
+| **Websites** | Professional business websites — fast, responsive, SEO-optimized |
+| **Online Shops** | Custom e-commerce solutions — Shopify or fully custom-built |
+| **Apps** | Cross-platform mobile apps for iOS and Android |
+| **EDI & Automation** | Business process automation, EDI integration, API connections |
+| **Enterprise Systems** | Large-scale backend systems, dashboards, data pipelines |
 
 ---
 
-## GitHub Stats
+### Tech Stack
 
-![Stats](https://github-readme-stats.vercel.app/api?username=iomid23&theme=dark&hide_border=true&include_all_commits=true&count_private=true)
-![Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&theme=dark&hide_border=true&layout=compact&count_private=true)
-
-> Most of my production work lives in private company repositories.
+| Category | Tools |
+| :--- | :--- |
+| **Frontend** | TypeScript · React · Next.js · Tailwind CSS |
+| **Backend** | Node.js · C# · C++ · REST APIs · PowerShell |
+| **Data** | Oracle · PostgreSQL · SQL · Prisma ORM |
+| **Systems** | EDI · SAP · CI/CD · Docker |
+| **Infrastructure** | Vercel · Hetzner · Git · DNS Management |
 
 ---
 
-## Contact
+### Why work with me
 
-[omidamini.de](https://omidamini.de) · [LinkedIn](https://linkedin.com/in/iomid23)
+- ✅ Everything belongs to you — domain, hosting, code
+- ✅ No vendor lock-in — no Wix, no Jimdo, no WordPress builders
+- ✅ Direct contact with the developer — no agencies, no middlemen
+- ✅ Enterprise quality at fair freelancer prices
+- ✅ Free initial consultation
+
+---
+
+### GitHub Insights
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=iomid23&theme=dark&hide_border=true&include_all_commits=true&count_private=true" alt="Omid's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&theme=dark&hide_border=true&layout=compact&count_private=true" alt="Top Languages" height="180" />
+</p>
+
+> [!NOTE]
+> Most of my production code lives in private enterprise repositories. Visit my website for a full picture of my work and architecture decisions.
+
+---
+
+📍 Düsseldorf, Germany
+🌐 [omidamini.de](https://omidamini.de)
+📧 [aminiomid1994@gmail.com](mailto:aminiomid1994@gmail.com)
+💼 [LinkedIn](https://linkedin.com/in/iomid23)
