@@ -53,9 +53,7 @@ Whether you need a professional website, an online shop, a cross-platform app, o
 <a href="https://github.com/iomid23/github-readme-stats">
   <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=iomid23" />
 </a>
-<a href="https://github.com/iomid23/convoychat">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=iomid23&layout=compact&langs_count=8&card_width=320" />
-</a>
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=iomid23&theme=dark" alt="GitHub Streak" /></a>
 
 > [!NOTE]
 > Most of my production code lives in private enterprise repositories. Visit my website for a full picture of my work and architecture decisions.
