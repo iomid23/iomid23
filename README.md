@@ -50,10 +50,9 @@ Whether you need a professional website, an online shop, a cross-platform app, o
 
 ### GitHub Insights
 
-<a href="https://github.com/iomid23/github-readme-stats">
-  <img height=200 align="center" src="https://github-readme-stats-fast.vercel.app/api?username=iomid23" />
-</a>
-<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=iomid23" alt="GitHub Streak" /></a>
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=iomid23&show_icons=true&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=iomid23&theme=radical)
+![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=iomid23&layout=compact&theme=radical)
 
 > [!NOTE]
 > Most of my production code lives in private enterprise repositories. Visit my website for a full picture of my work and architecture decisions.
