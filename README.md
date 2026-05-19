@@ -52,7 +52,6 @@ Whether you need a professional website, an online shop, a cross-platform app, o
 
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=iomid23&show_icons=true&theme=radical)
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=iomid23&theme=radical)
-![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=iomid23&layout=compact&theme=radical)
 
 > [!NOTE]
 > Most of my production code lives in private enterprise repositories. Visit my website for a full picture of my work and architecture decisions.
