@@ -1,0 +1,74 @@
+<svg width="100%" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Tech stack: TypeScript, React, Next.js, NestJS, PostgreSQL, EDI, SAP, Docker and more">
+  <defs>
+    <linearGradient id="stBg" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <clipPath id="stClip"><rect x="1" y="1" width="998" height="298" rx="16"/></clipPath>
+    <radialGradient id="stGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#2FBF71" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .row { opacity: 0; transform: translateX(-10px); animation: slideIn .7s cubic-bezier(.2,.7,.3,1) forwards; }
+      .r1 { animation-delay: .05s; } .r2 { animation-delay: .18s; }
+      .r3 { animation-delay: .31s; } .r4 { animation-delay: .44s; }
+      @keyframes slideIn { to { opacity: 1; transform: translateX(0); } }
+      @media (prefers-reduced-motion: reduce) {
+        .row { animation: none; opacity: 1; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="298" rx="16" fill="url(#stBg)" stroke="#1E2938" stroke-width="1.5"/>
+  <g clip-path="url(#stClip)"><circle cx="200" cy="0" r="360" fill="url(#stGlow)"/></g>
+
+  <g class="f">
+    <text x="52" y="48" font-size="12" font-weight="700" letter-spacing="3.5" fill="#7D8B9E">TECH STACK — <tspan fill="#3DDC97">green</tspan> = core, daily drivers</text>
+
+    <!-- FRONTEND -->
+    <g class="row r1" font-size="13" font-weight="600">
+      <text x="52" y="90" font-size="11.5" font-weight="700" letter-spacing="2" fill="#7D8B9E">FRONTEND</text>
+      <rect x="190" y="70" width="110" height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="208" y="90" fill="#7EE6B4">TypeScript</text>
+      <rect x="312" y="70" width="74"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="330" y="90" fill="#C8D2DE">React</text>
+      <rect x="398" y="70" width="90"  height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="416" y="90" fill="#7EE6B4">Next.js</text>
+      <rect x="500" y="70" width="126" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="518" y="90" fill="#C8D2DE">React Native</text>
+      <rect x="638" y="70" width="126" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="656" y="90" fill="#C8D2DE">Tailwind CSS</text>
+    </g>
+
+    <!-- BACKEND -->
+    <g class="row r2" font-size="13" font-weight="600">
+      <text x="52" y="144" font-size="11.5" font-weight="700" letter-spacing="2" fill="#7D8B9E">BACKEND</text>
+      <rect x="190" y="124" width="90"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="208" y="144" fill="#C8D2DE">Node.js</text>
+      <rect x="292" y="124" width="82"  height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="310" y="144" fill="#7EE6B4">NestJS</text>
+      <rect x="386" y="124" width="52"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="404" y="144" fill="#C8D2DE">C#</text>
+      <rect x="450" y="124" width="58"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="468" y="144" fill="#C8D2DE">C++</text>
+      <rect x="520" y="124" width="104" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="538" y="144" fill="#C8D2DE">REST APIs</text>
+      <rect x="636" y="124" width="112" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="654" y="144" fill="#C8D2DE">PowerShell</text>
+    </g>
+
+    <!-- DATA -->
+    <g class="row r3" font-size="13" font-weight="600">
+      <text x="52" y="198" font-size="11.5" font-weight="700" letter-spacing="2" fill="#7D8B9E">DATA</text>
+      <rect x="190" y="178" width="112" height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="208" y="198" fill="#7EE6B4">PostgreSQL</text>
+      <rect x="314" y="178" width="82"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="332" y="198" fill="#C8D2DE">Oracle</text>
+      <rect x="408" y="178" width="112" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="426" y="198" fill="#C8D2DE">Prisma ORM</text>
+      <rect x="532" y="178" width="74"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="550" y="198" fill="#C8D2DE">Redis</text>
+      <rect x="618" y="178" width="60"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="636" y="198" fill="#C8D2DE">SQL</text>
+    </g>
+
+    <!-- SYSTEMS & INFRA -->
+    <g class="row r4" font-size="13" font-weight="600">
+      <text x="52" y="252" font-size="11.5" font-weight="700" letter-spacing="2" fill="#7D8B9E">SYSTEMS</text>
+      <rect x="190" y="232" width="58"  height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="208" y="252" fill="#7EE6B4">EDI</text>
+      <rect x="260" y="232" width="58"  height="30" rx="15" fill="#0E1A14" stroke="#22553B"/><text x="278" y="252" fill="#7EE6B4">SAP</text>
+      <rect x="330" y="232" width="82"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="348" y="252" fill="#C8D2DE">Docker</text>
+      <rect x="424" y="232" width="70"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="442" y="252" fill="#C8D2DE">CI/CD</text>
+      <rect x="506" y="232" width="112" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="524" y="252" fill="#C8D2DE">Cloudflare</text>
+      <rect x="630" y="232" width="92"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="648" y="252" fill="#C8D2DE">Hetzner</text>
+      <rect x="734" y="232" width="80"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="752" y="252" fill="#C8D2DE">Vercel</text>
+      <rect x="826" y="232" width="56"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="844" y="252" fill="#C8D2DE">Git</text>
+    </g>
+  </g>
+</svg>

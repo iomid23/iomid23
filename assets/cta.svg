@@ -1,0 +1,47 @@
+<svg width="100%" viewBox="0 0 1000 170" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Have a project in mind? Let's talk.">
+  <defs>
+    <linearGradient id="ctaBg" x1="0" y1="0" x2="1000" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0C1A13"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <linearGradient id="ctaLine" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#3DDC97"/>
+      <stop offset="1" stop-color="#E0A82E" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="ctaGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#2FBF71" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="ctaClip"><rect x="1" y="1" width="998" height="168" rx="16"/></clipPath>
+    <style>
+      .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .fadeUp { opacity: 0; transform: translateY(10px); animation: fadeUp .8s cubic-bezier(.2,.7,.3,1) forwards; }
+      .d1 { animation-delay: .05s; } .d2 { animation-delay: .2s; } .d3 { animation-delay: .35s; }
+      @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+      .breathe { animation: breathe 3s ease-in-out infinite; }
+      @keyframes breathe { 0%,100% { opacity: .95; } 50% { opacity: .45; } }
+      @media (prefers-reduced-motion: reduce) {
+        .fadeUp, .breathe { animation: none; opacity: 1; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="168" rx="16" fill="url(#ctaBg)" stroke="#22553B" stroke-width="1.5"/>
+  <g clip-path="url(#ctaClip)">
+    <circle cx="500" cy="200" r="420" fill="url(#ctaGlow)"/>
+    <rect class="breathe" x="0" y="1" width="1000" height="2.5" fill="url(#ctaLine)"/>
+  </g>
+
+  <g class="f">
+    <text class="fadeUp d1" x="500" y="62" text-anchor="middle" font-size="27" font-weight="700" fill="#F2F6FA" letter-spacing="-0.3">Have a project in mind?</text>
+    <text class="fadeUp d2" x="500" y="92" text-anchor="middle" font-size="15" fill="#93A1B3">Free initial consultation — direct contact, no agency overhead, full ownership for you.</text>
+
+    <g class="fadeUp d3" font-size="14" font-weight="600">
+      <rect x="330" y="112" width="158" height="36" rx="18" fill="#3DDC97"/>
+      <text x="409" y="135" text-anchor="middle" fill="#07130C">omidamini.de&#160;&#160;→</text>
+      <rect x="500" y="112" width="170" height="36" rx="18" fill="none" stroke="#33415A" stroke-width="1.4"/>
+      <text x="585" y="135" text-anchor="middle" fill="#C8D2DE">✉&#160;&#160;Write me an email</text>
+    </g>
+  </g>
+</svg>

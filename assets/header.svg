@@ -1,0 +1,104 @@
+<svg width="100%" viewBox="0 0 1000 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Omid Amini — Senior Fullstack and EDI Developer">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1000" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F6FA"/>
+      <stop offset="1" stop-color="#A7B4C6"/>
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#2FBF71"/>
+      <stop offset="0.65" stop-color="#E0A82E"/>
+      <stop offset="1" stop-color="#E0A82E" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowGreen" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#2FBF71" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowGold" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#E0A82E" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#E0A82E" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" x="0" y="0" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.2" cy="1.2" r="1.2" fill="#1C2634"/>
+    </pattern>
+    <clipPath id="cardClip">
+      <rect x="1" y="1" width="998" height="298" rx="16"/>
+    </clipPath>
+    <style>
+      .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .fadeUp { opacity: 0; transform: translateY(12px); animation: fadeUp .9s cubic-bezier(.2,.7,.3,1) forwards; }
+      .d1 { animation-delay: .1s; } .d2 { animation-delay: .25s; } .d3 { animation-delay: .4s; }
+      .d4 { animation-delay: .55s; } .d5 { animation-delay: .7s; }
+      @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+      .pulse { animation: pulse 2.2s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes pulse { 0%,100% { opacity: 1; } 50% { opacity: .35; } }
+      .ring { animation: ring 2.2s ease-out infinite; transform-origin: center; transform-box: fill-box; }
+      @keyframes ring { 0% { transform: scale(.6); opacity: .8; } 100% { transform: scale(2.2); opacity: 0; } }
+      .flow { stroke-dasharray: 6 10; animation: flow 1.6s linear infinite; }
+      .flow2 { stroke-dasharray: 5 12; animation: flow 2.4s linear infinite reverse; }
+      @keyframes flow { to { stroke-dashoffset: -32; } }
+      .nodePulse { animation: nodePulse 3s ease-in-out infinite; transform-origin: center; transform-box: fill-box; }
+      .np2 { animation-delay: .7s; } .np3 { animation-delay: 1.4s; } .np4 { animation-delay: 2.1s; }
+      @keyframes nodePulse { 0%,100% { transform: scale(1); } 50% { transform: scale(1.25); } }
+      .drift { animation: drift 9s ease-in-out infinite alternate; }
+      @keyframes drift { from { transform: translate(0,0); } to { transform: translate(-30px,18px); } }
+      .drift2 { animation: drift2 11s ease-in-out infinite alternate; }
+      @keyframes drift2 { from { transform: translate(0,0); } to { transform: translate(26px,-14px); } }
+      @media (prefers-reduced-motion: reduce) {
+        .fadeUp, .pulse, .ring, .flow, .flow2, .nodePulse, .drift, .drift2 { animation: none; opacity: 1; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <!-- Card -->
+  <rect x="1" y="1" width="998" height="298" rx="16" fill="url(#bgGrad)" stroke="#1E2938" stroke-width="1.5"/>
+  <g clip-path="url(#cardClip)">
+    <rect x="0" y="0" width="1000" height="300" fill="url(#dots)" opacity="0.55"/>
+    <g class="drift"><circle cx="840" cy="40" r="260" fill="url(#glowGreen)"/></g>
+    <g class="drift2"><circle cx="120" cy="290" r="240" fill="url(#glowGold)"/></g>
+    <!-- top accent hairline -->
+    <rect x="0" y="1" width="1000" height="2.5" fill="url(#accentLine)"/>
+  </g>
+
+  <!-- Left: identity -->
+  <g class="f">
+    <text class="fadeUp d1" x="56" y="78" font-size="12.5" font-weight="600" letter-spacing="3.5" fill="#7D8B9E">DÜSSELDORF · GERMANY&#160;&#160;—&#160;&#160;10+ YEARS OF EXPERIENCE</text>
+    <text class="fadeUp d2" x="54" y="138" font-size="54" font-weight="700" fill="url(#nameGrad)" letter-spacing="-1">Omid Amini</text>
+    <text class="fadeUp d3" x="56" y="176" font-size="21" font-weight="600" fill="#3DDC97" letter-spacing="0.2">Senior Fullstack &amp; EDI Developer</text>
+    <text class="fadeUp d4" x="56" y="207" font-size="15" font-weight="400" fill="#93A1B3">Websites&#160;&#160;·&#160;&#160;Apps&#160;&#160;·&#160;&#160;E-Commerce&#160;&#160;·&#160;&#160;EDI &amp; Enterprise Automation</text>
+
+    <!-- availability pill -->
+    <g class="fadeUp d5">
+      <rect x="56" y="230" width="216" height="34" rx="17" fill="#0E1A14" stroke="#22553B" stroke-width="1.2"/>
+      <circle class="ring" cx="76" cy="247" r="4" fill="none" stroke="#3DDC97" stroke-width="1.5"/>
+      <circle class="pulse" cx="76" cy="247" r="4" fill="#3DDC97"/>
+      <text x="92" y="252" font-size="13.5" font-weight="600" fill="#7EE6B4">Available for projects</text>
+      <!-- founder chip -->
+      <rect x="286" y="230" width="252" height="34" rx="17" fill="#131018" stroke="#4A3A18" stroke-width="1.2"/>
+      <text x="304" y="252" font-size="13.5" font-weight="600" fill="#E8C46A">★&#160; Founder of Rebar — myrebar.de</text>
+    </g>
+  </g>
+
+  <!-- Right: integration network -->
+  <g class="fadeUp d4">
+    <!-- connections -->
+    <path class="flow"  d="M 760 100 L 850 150" stroke="#2FBF71" stroke-opacity="0.55" stroke-width="1.6"/>
+    <path class="flow2" d="M 850 150 L 936 96"  stroke="#E0A82E" stroke-opacity="0.45" stroke-width="1.6"/>
+    <path class="flow"  d="M 850 150 L 932 208" stroke="#2FBF71" stroke-opacity="0.45" stroke-width="1.6"/>
+    <path class="flow2" d="M 850 150 L 764 214" stroke="#5A6B80" stroke-opacity="0.55" stroke-width="1.6"/>
+    <path class="flow"  d="M 760 100 L 764 214" stroke="#5A6B80" stroke-opacity="0.3" stroke-width="1.2"/>
+    <!-- nodes -->
+    <g class="nodePulse"><circle cx="760" cy="100" r="7" fill="#0B1017" stroke="#3DDC97" stroke-width="2"/></g>
+    <g class="nodePulse np2"><circle cx="936" cy="96" r="6" fill="#0B1017" stroke="#E0A82E" stroke-width="2"/></g>
+    <g class="nodePulse np3"><circle cx="932" cy="208" r="6" fill="#0B1017" stroke="#3DDC97" stroke-width="2"/></g>
+    <g class="nodePulse np4"><circle cx="764" cy="214" r="6" fill="#0B1017" stroke="#7D8B9E" stroke-width="2"/></g>
+    <!-- hub -->
+    <circle class="ring" cx="850" cy="150" r="10" fill="none" stroke="#3DDC97" stroke-width="1.5"/>
+    <circle cx="850" cy="150" r="11" fill="#0E1A14" stroke="#3DDC97" stroke-width="2.2"/>
+    <path d="M 845.5 150 L 848.8 153.4 L 855 146.8" stroke="#3DDC97" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

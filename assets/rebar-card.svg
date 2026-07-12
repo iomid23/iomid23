@@ -1,0 +1,86 @@
+<svg width="100%" viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Featured project: Rebar — the digital home for Kurdish businesses">
+  <defs>
+    <linearGradient id="rbBg" x1="0" y1="0" x2="1000" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1017"/>
+      <stop offset="1" stop-color="#0A0E14"/>
+    </linearGradient>
+    <linearGradient id="rbTitle" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2F6FA"/>
+      <stop offset="1" stop-color="#AEBACB"/>
+    </linearGradient>
+    <linearGradient id="rbEdge" x1="0" y1="0" x2="0" y2="330" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3DDC97"/>
+      <stop offset="1" stop-color="#E0A82E"/>
+    </linearGradient>
+    <radialGradient id="rbGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2FBF71" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2FBF71" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="rbClip"><rect x="1" y="1" width="998" height="328" rx="16"/></clipPath>
+    <style>
+      .f { font-family: 'Segoe UI', -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+      .fadeUp { opacity: 0; transform: translateY(10px); animation: fadeUp .8s cubic-bezier(.2,.7,.3,1) forwards; }
+      .d1 { animation-delay: .05s; } .d2 { animation-delay: .2s; } .d3 { animation-delay: .35s; }
+      .d4 { animation-delay: .5s; } .d5 { animation-delay: .65s; }
+      @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+      .shimmer { animation: shimmer 3.5s ease-in-out infinite; }
+      @keyframes shimmer { 0%,100% { opacity: .9; } 50% { opacity: .5; } }
+      @media (prefers-reduced-motion: reduce) {
+        .fadeUp, .shimmer { animation: none; opacity: 1; transform: none; }
+      }
+    </style>
+  </defs>
+
+  <rect x="1" y="1" width="998" height="328" rx="16" fill="url(#rbBg)" stroke="#1E2938" stroke-width="1.5"/>
+  <g clip-path="url(#rbClip)">
+    <circle cx="880" cy="60" r="300" fill="url(#rbGlow)"/>
+    <rect class="shimmer" x="1" y="1" width="4" height="328" fill="url(#rbEdge)"/>
+  </g>
+
+  <g class="f">
+    <!-- eyebrow -->
+    <text class="fadeUp d1" x="52" y="62" font-size="12" font-weight="700" letter-spacing="3.5" fill="#E8C46A">★&#160; FEATURED PRODUCT — DESIGNED, BUILT &amp; OPERATED END-TO-END</text>
+
+    <!-- title -->
+    <text class="fadeUp d2" x="50" y="116" font-size="40" font-weight="700" fill="url(#rbTitle)" letter-spacing="-0.5">Rebar&#160;&#160;<tspan fill="#3DDC97">ڕێبه‌ر</tspan></text>
+    <text class="fadeUp d2" x="52" y="148" font-size="16.5" fill="#93A1B3">The digital home for Kurdish businesses worldwide — <tspan fill="#C8D2DE" font-weight="600">LinkedIn + Yelp + Maps</tspan> for 60M+ Kurds.</text>
+
+    <!-- metric row -->
+    <g class="fadeUp d3">
+      <g>
+        <text x="52"  y="196" font-size="22" font-weight="700" fill="#3DDC97">4</text>
+        <text x="80"  y="196" font-size="13.5" fill="#8B98A9">languages · RTL-aware</text>
+      </g>
+      <g>
+        <text x="272" y="196" font-size="22" font-weight="700" fill="#3DDC97">3</text>
+        <text x="300" y="196" font-size="13.5" fill="#8B98A9">apps — web · mobile · admin</text>
+      </g>
+      <g>
+        <text x="532" y="196" font-size="22" font-weight="700" fill="#3DDC97">1</text>
+        <text x="552" y="196" font-size="13.5" fill="#8B98A9">monorepo, CI/CD-gated deploys</text>
+      </g>
+      <g>
+        <text x="806" y="196" font-size="22" font-weight="700" fill="#E8C46A">€</text>
+        <text x="830" y="196" font-size="13.5" fill="#8B98A9">payments live (Paddle)</text>
+      </g>
+    </g>
+
+    <!-- divider -->
+    <rect class="fadeUp d3" x="52" y="216" width="896" height="1" fill="#1E2938"/>
+
+    <!-- stack chips row 1 -->
+    <g class="fadeUp d4" font-size="13" font-weight="600">
+      <rect x="52"  y="236" width="84"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="70"  y="256" fill="#C8D2DE">Next.js</text>
+      <rect x="146" y="236" width="84"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="164" y="256" fill="#C8D2DE">NestJS</text>
+      <rect x="240" y="236" width="110" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="258" y="256" fill="#C8D2DE">PostgreSQL</text>
+      <rect x="360" y="236" width="72"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="378" y="256" fill="#C8D2DE">Redis</text>
+      <rect x="442" y="236" width="130" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="460" y="256" fill="#C8D2DE">React Native</text>
+      <rect x="582" y="236" width="80"  height="30" rx="15" fill="#101722" stroke="#243044"/><text x="600" y="256" fill="#C8D2DE">Docker</text>
+      <rect x="672" y="236" width="108" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="690" y="256" fill="#C8D2DE">Cloudflare</text>
+      <rect x="790" y="236" width="158" height="30" rx="15" fill="#101722" stroke="#243044"/><text x="808" y="256" fill="#C8D2DE">GitHub Actions</text>
+    </g>
+
+    <!-- engineering line -->
+    <text class="fadeUp d5" x="52" y="298" font-size="13.5" fill="#7D8B9E">RBAC &#160;·&#160; 2FA &#160;·&#160; CSP/HSTS hardening &#160;·&#160; automated test &amp; deploy gates &#160;·&#160; Sentry monitoring &#160;·&#160; AI assistant (RAG) &#160;·&#160; GDPR-compliant</text>
+  </g>
+</svg>
