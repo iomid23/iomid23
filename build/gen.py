@@ -1,7 +1,9 @@
 """Generates the profile graphics in light and dark, using the omidamini.de design tokens."""
+import base64
 from pathlib import Path
 
 OUT = Path(__file__).resolve().parent.parent / "assets"
+PORTRAIT = base64.b64encode((Path(__file__).resolve().parent / "portrait.jpg").read_bytes()).decode()
 FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif"
 MONO = "'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
 THEMES = {
@@ -37,15 +39,12 @@ def header(t):
     <text x="64" y="160" font-size="13" font-weight="600" fill="{t["accent"]}" letter-spacing="2.4">REMSCHEID, GERMANY · BUILDING SOFTWARE SINCE 2016</text>
     <text x="64" y="218" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">EDI and SAP integration</text>
     <text x="64" y="270" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">for mid-sized companies</text>
-    <text x="64" y="318" font-size="18" fill="{t["muted"]}">Order pipelines, enterprise platforms and my own product, Rebar.</text>
+    <text x="64" y="310" font-size="18" fill="{t["muted"]}">Order pipelines, enterprise platforms and my own product, Rebar.</text>
+    <text x="64" y="342" font-size="15" fill="{t["muted"]}"><tspan font-weight="800" fill="{t["accent"]}">&gt; 92%</tspan> fewer processing errors at <tspan font-weight="700" fill="{t["text"]}">4,000+</tspan> records a day</text>
   </g>
-  <g font-family="{FONT}">
-    <rect x="850" y="96" width="286" height="188" rx="16" fill="{t["card"]}" stroke="{t["line"]}"/>
-    <text x="878" y="136" font-size="12" font-weight="600" fill="{t["faint"]}" letter-spacing="1.6">FROM PRODUCTION</text>
-    <text x="878" y="190" font-size="44" font-weight="800" fill="{t["accent"]}" letter-spacing="-1">&gt; 92%</text>
-    <text x="878" y="216" font-size="14" fill="{t["muted"]}">fewer processing errors</text>
-    <text x="878" y="252" font-size="14" fill="{t["muted"]}"><tspan font-weight="700" fill="{t["text"]}">4,000+</tspan> records a day, automated</text>
-  </g>
+  <defs><clipPath id="photo"><rect x="896" y="70" width="240" height="240" rx="18"/></clipPath></defs>
+  <image x="896" y="70" width="240" height="240" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo)" href="data:image/jpeg;base64,{PORTRAIT}"/>
+  <rect x="896.5" y="70.5" width="239" height="239" rx="17.5" fill="none" stroke="{t["line"]}"/>
 </svg>
 '''
 
