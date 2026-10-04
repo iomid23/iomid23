@@ -23,7 +23,7 @@ Most of my work lives in private repositories, so this page is the short version
 
 | Project | What it is | Outcome |
 | :-- | :-- | :-- |
-| [**Order automation**](https://omidamini.de/en/projects/enterprise-order-automation) | Rebuilt the order processing of an industrial company as one pipeline: EDIFACT intake, validation, mapping, handover to SAP via REST, monitoring. C#, PowerShell, Oracle. | Over 92% fewer processing errors at more than 4,000 records a day |
+| [**Order automation**](https://omidamini.de/en/projects/enterprise-order-automation) | Rebuilt the order processing of an industrial company as one pipeline: EDIFACT intake, validation, mapping, handover to SAP via REST, monitoring. C, C#, PowerShell, Oracle. | Over 92% fewer processing errors at more than 4,000 records a day |
 | [**Prime Route Logistics**](https://pr-logistics.net) | Website, client portal and full forwarding ERP for an international freight forwarder: quotes, tracking, customs documents, invoicing. Four languages including RTL. | One system for sales, operations and billing |
 | [**Rebar**](https://omidamini.de/en/projects/rebar) | My own product. Business directory, bookings, subscriptions and a Kurdish dictionary with 273,000 entries from 19 sources. | Live on the App Store, Google Play and the web |
 | **Tapsi**, authentication | Complete sign-in and session system, with tests, for a ride-hailing platform with very high traffic. | In production under heavy load |
@@ -45,7 +45,7 @@ Most of my work lives in private repositories, so this page is the short version
 
 ## Tools I use
 
-**Integration** &nbsp; EDIFACT · AS2 / SFTP · SAP (IDoc, REST) · Oracle · PL/SQL · C# · PowerShell<br />
+**Integration** &nbsp; EDIFACT · AS2 / SFTP · SAP (IDoc, REST) · Oracle · PL/SQL · C · C# · PowerShell<br />
 **Web and backend** &nbsp; TypeScript · Next.js · React · Node.js · NestJS · PostgreSQL · Prisma · Redis<br />
 **Mobile** &nbsp; React Native · Expo · EAS · RevenueCat<br />
 **Operations** &nbsp; Docker · Hetzner · Vercel · Cloudflare · GitHub Actions · Sentry
