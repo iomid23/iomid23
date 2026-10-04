@@ -19,7 +19,7 @@ def grid(t, w, h, step=32):
 
 def header(t):
     w, h = 1200, 380
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Omid Amini, EDI and SAP integration and full-stack engineering, Remscheid, Germany">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Omid Amini, EDI and SAP integration and full-stack engineering, Düsseldorf area, Germany">
   <defs>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0.45" stop-color="{t["bg"]}" stop-opacity="1"/><stop offset="1" stop-color="{t["bg"]}" stop-opacity="0.35"/></linearGradient>
     <clipPath id="r"><rect width="{w}" height="{h}" rx="20"/></clipPath>
@@ -36,7 +36,7 @@ def header(t):
     <text x="86" y="88" text-anchor="middle" font-size="19" font-weight="800" fill="{t["bg"]}" letter-spacing="-0.5">OA</text>
     <text x="124" y="78" font-size="17" font-weight="700" fill="{t["text"]}">Omid Amini</text>
     <text x="124" y="99" font-size="13" fill="{t["faint"]}">Software Engineer · OA IT Solutions</text>
-    <text x="64" y="160" font-size="13" font-weight="600" fill="{t["accent"]}" letter-spacing="2.4">REMSCHEID, GERMANY · BUILDING SOFTWARE SINCE 2016</text>
+    <text x="64" y="160" font-size="13" font-weight="600" fill="{t["accent"]}" letter-spacing="2.4">DÜSSELDORF AREA, GERMANY · BUILDING SOFTWARE SINCE 2016</text>
     <text x="64" y="218" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">EDI and SAP integration</text>
     <text x="64" y="270" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">for mid-sized companies</text>
     <text x="64" y="310" font-size="18" fill="{t["muted"]}">Order pipelines, enterprise platforms and my own product, Rebar.</text>
@@ -60,11 +60,11 @@ def rebar(t):
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="Rebar, my own product: a multilingual Kurdish business platform, live on the App Store, Google Play and the web">
   <rect x="0.5" y="0.5" width="{w-1}" height="{h-1}" rx="19.5" fill="{t["card"]}" stroke="{t["line"]}"/>
   <g font-family="{FONT}">
-    <text x="64" y="62" font-size="13" font-weight="600" fill="{t["accent"]}" letter-spacing="2.4">OWN PRODUCT</text>
+    <text x="64" y="62" font-size="13" font-weight="600" fill="{t["accent"]}" letter-spacing="2.4">OWN STARTUP · SINCE 2023</text>
     <text x="64" y="106" font-size="34" font-weight="800" fill="{t["text"]}" letter-spacing="-0.8">Rebar <tspan font-weight="600" fill="{t["faint"]}">ڕێبەر</tspan></text>
     <text x="64" y="142" font-size="17" fill="{t["muted"]}">Kurdish business platform and a 273,000 word dictionary. Built and run alone, from database to store release.</text>
     {"".join(chips)}
-    <text x="1136" y="62" text-anchor="end" font-size="13" font-weight="600" fill="{t["text"]}">Live on App Store, Google Play and web →</text>
+    <text x="1136" y="62" text-anchor="end" font-size="13" font-weight="600" fill="{t["text"]}">Live since August 2026 →</text>
   </g>
 </svg>
 '''
