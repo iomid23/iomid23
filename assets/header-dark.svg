@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-label="Omid Amini, EDI and SAP integration and full-stack engineering, Remscheid, Germany">
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0"><stop offset="0.45" stop-color="#0c0c0b" stop-opacity="1"/><stop offset="1" stop-color="#0c0c0b" stop-opacity="0.35"/></linearGradient>
+    <clipPath id="r"><rect width="1200" height="380" rx="20"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="380" fill="#0c0c0b"/>
+    <g stroke="#262624" stroke-width="1" opacity="0.55"><path d="M32 0V380" /><path d="M64 0V380" /><path d="M96 0V380" /><path d="M128 0V380" /><path d="M160 0V380" /><path d="M192 0V380" /><path d="M224 0V380" /><path d="M256 0V380" /><path d="M288 0V380" /><path d="M320 0V380" /><path d="M352 0V380" /><path d="M384 0V380" /><path d="M416 0V380" /><path d="M448 0V380" /><path d="M480 0V380" /><path d="M512 0V380" /><path d="M544 0V380" /><path d="M576 0V380" /><path d="M608 0V380" /><path d="M640 0V380" /><path d="M672 0V380" /><path d="M704 0V380" /><path d="M736 0V380" /><path d="M768 0V380" /><path d="M800 0V380" /><path d="M832 0V380" /><path d="M864 0V380" /><path d="M896 0V380" /><path d="M928 0V380" /><path d="M960 0V380" /><path d="M992 0V380" /><path d="M1024 0V380" /><path d="M1056 0V380" /><path d="M1088 0V380" /><path d="M1120 0V380" /><path d="M1152 0V380" /><path d="M1184 0V380" /><path d="M0 32H1200" /><path d="M0 64H1200" /><path d="M0 96H1200" /><path d="M0 128H1200" /><path d="M0 160H1200" /><path d="M0 192H1200" /><path d="M0 224H1200" /><path d="M0 256H1200" /><path d="M0 288H1200" /><path d="M0 320H1200" /><path d="M0 352H1200" /></g>
+    <rect width="1200" height="380" fill="url(#fade)"/>
+    <rect x="0" y="0" width="6" height="380" fill="#60a5fa"/>
+  </g>
+  <rect x="0.5" y="0.5" width="1199" height="379" rx="19.5" fill="none" stroke="#262624"/>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="64" y="58" width="44" height="44" rx="10" fill="#60a5fa"/>
+    <text x="86" y="88" text-anchor="middle" font-size="19" font-weight="800" fill="#0c0c0b" letter-spacing="-0.5">OA</text>
+    <text x="124" y="78" font-size="17" font-weight="700" fill="#e8e8e6">Omid Amini</text>
+    <text x="124" y="99" font-size="13" fill="#8b8b86">Software Engineer · OA IT Solutions</text>
+    <text x="64" y="160" font-size="13" font-weight="600" fill="#60a5fa" letter-spacing="2.4">REMSCHEID, GERMANY · BUILDING SOFTWARE SINCE 2016</text>
+    <text x="64" y="218" font-size="46" font-weight="800" fill="#e8e8e6" letter-spacing="-1.4">EDI and SAP integration</text>
+    <text x="64" y="270" font-size="46" font-weight="800" fill="#e8e8e6" letter-spacing="-1.4">for mid-sized companies</text>
+    <text x="64" y="318" font-size="18" fill="#a8a8a4">Order pipelines, enterprise platforms and my own product, Rebar.</text>
+  </g>
+  <g font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="850" y="96" width="286" height="188" rx="16" fill="#141413" stroke="#262624"/>
+    <text x="878" y="136" font-size="12" font-weight="600" fill="#8b8b86" letter-spacing="1.6">FROM PRODUCTION</text>
+    <text x="878" y="190" font-size="44" font-weight="800" fill="#60a5fa" letter-spacing="-1">&gt; 92%</text>
+    <text x="878" y="216" font-size="14" fill="#a8a8a4">fewer processing errors</text>
+    <text x="878" y="252" font-size="14" fill="#a8a8a4"><tspan font-weight="700" fill="#e8e8e6">4,000+</tspan> records a day, automated</text>
+  </g>
+</svg>

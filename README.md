@@ -1,85 +1,62 @@
-<!-- ─────────────────────────────  HEADER  ───────────────────────────── -->
 <a href="https://omidamini.de">
-  <img src="./assets/header.svg" alt="Omid Amini — Senior Fullstack & EDI Developer, Düsseldorf, Germany" width="100%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
+    <img src="./assets/header-light.svg" alt="Omid Amini, EDI and SAP integration and full-stack engineering, Remscheid, Germany" width="100%" />
+  </picture>
 </a>
 
-<div align="center">
-  <a href="https://omidamini.de"><img src="https://img.shields.io/badge/🌐_omidamini.de-0D1117?style=for-the-badge&logo=google-chrome&logoColor=3DDC97&labelColor=0D1117" alt="Website" /></a>&nbsp;
-  <a href="https://linkedin.com/in/iomid23"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=3DDC97&labelColor=0D1117" alt="LinkedIn" /></a>&nbsp;
-  <a href="mailto:aminiomid1994@gmail.com"><img src="https://img.shields.io/badge/Email-0D1117?style=for-the-badge&logo=gmail&logoColor=E0A82E&labelColor=0D1117" alt="Email" /></a>
-</div>
+<p align="center">
+  <a href="https://omidamini.de/en"><b>omidamini.de</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/iomid23">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:contact@omidamini.de">contact@omidamini.de</a>
+  &nbsp;·&nbsp;
+  <a href="https://omidamini.de/edi-sap-integration">EDI &amp; SAP (German)</a>
+</p>
 
-<br />
+I'm Omid, a software engineer in Remscheid, Germany. I connect business partners to SAP via EDI, automate order processing and build the platforms around it. Under the name **OA IT Solutions** I take on client projects, and in my own time I build **Rebar**, a Kurdish business platform.
 
-**I build software that runs businesses — and I own it end-to-end.**
+Most of my work lives in private repositories, so this page is the short version. The long one, with case studies, is on [omidamini.de](https://omidamini.de/en).
 
-From modern web platforms and cross-platform mobile apps to the EDI pipelines and enterprise systems that quietly move millions in orders every day. Ten years in production environments taught me one thing: shipping is easy, *operating* is the craft. That's why everything I deliver comes with clean architecture, automated deployment, monitoring — and full ownership for you. No agencies, no middlemen, no lock-in.
+## Selected work
 
-<br />
+| Project | What it is | Outcome |
+| :-- | :-- | :-- |
+| [**Order automation**](https://omidamini.de/en/projects/enterprise-order-automation) | Rebuilt the order processing of an industrial company as one pipeline: EDIFACT intake, validation, mapping, handover to SAP via REST, monitoring. C#, PowerShell, Oracle. | Over 92% fewer processing errors at more than 4,000 records a day |
+| [**Prime Route Logistics**](https://pr-logistics.net) | Website, client portal and full forwarding ERP for an international freight forwarder: quotes, tracking, customs documents, invoicing. Four languages including RTL. | One system for sales, operations and billing |
+| [**Rebar**](https://omidamini.de/en/projects/rebar) | My own product. Business directory, bookings, subscriptions and a Kurdish dictionary with 273,000 entries from 19 sources. | Live on the App Store, Google Play and the web |
+| **Tapsi**, authentication | Complete sign-in and session system, with tests, for a ride-hailing platform with very high traffic. | In production under heavy load |
+| **Sarafi**, admin platform | Admin and staff dashboards for a trading platform, with role-based access and real-time reporting. | In production with clearly separated roles |
 
-<!-- ─────────────────────────────  FEATURED  ───────────────────────────── -->
-<a href="https://myrebar.de">
-  <img src="./assets/rebar-card.svg" alt="Featured product: Rebar — the digital home for Kurdish businesses worldwide" width="100%" />
+<a href="https://omidamini.de/en/projects/rebar">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/rebar-dark.svg" />
+    <img src="./assets/rebar-light.svg" alt="Rebar, my own product: a multilingual Kurdish business platform, live on the App Store, Google Play and the web" width="100%" />
+  </picture>
 </a>
 
-<div align="center">
-  <sub><b>Live:</b> <a href="https://myrebar.de">myrebar.de</a> &nbsp;·&nbsp; <a href="https://myrebar.app">myrebar.app</a> &nbsp;·&nbsp; pnpm + Turborepo monorepo — Next.js web · NestJS + Prisma API · React Native app · React admin — running on dedicated German infrastructure</sub>
-</div>
+## How I work
+
+- **One person, start to finish.** You talk to whoever writes the code, from the first call to the handover.
+- **Validated at every step.** Integrations get checks, clear error paths and monitoring, so problems show up before your customer calls.
+- **It belongs to you.** Domain, hosting and database can run in your name, and the code is documented so another developer can pick it up.
+- **Fixed prices.** Free first call, then a binding offer.
+
+## Tools I use
+
+**Integration** &nbsp; EDIFACT · AS2 / SFTP · SAP (IDoc, REST) · Oracle · PL/SQL · C# · PowerShell<br />
+**Web and backend** &nbsp; TypeScript · Next.js · React · Node.js · NestJS · PostgreSQL · Prisma · Redis<br />
+**Mobile** &nbsp; React Native · Expo · EAS · RevenueCat<br />
+**Operations** &nbsp; Docker · Hetzner · Vercel · Cloudflare · GitHub Actions · Sentry
 
 <br />
 
-Rebar is not a portfolio demo. It is a **complete product I designed, built and operate alone** — database schema to App Store release, payment flow to GDPR paperwork. If you want to know how I work, this is the answer: one person, production quality, full stack, full responsibility.
-
-<br />
-
-<!-- ─────────────────────────────  SERVICES  ───────────────────────────── -->
-## What I build for clients
-
-| | Service | What you get |
-| :---: | :--- | :--- |
-| **01** | **Websites** | Fast, responsive, SEO-optimized business websites — built to convert, not just to exist |
-| **02** | **Online Shops** | E-commerce done right — Shopify where it fits, fully custom where it matters |
-| **03** | **Mobile Apps** | One codebase, both stores — React Native apps for iOS & Android |
-| **04** | **EDI & Automation** | EDIFACT, API integrations, process automation — the invisible systems that save real money |
-| **05** | **Enterprise Systems** | Large-scale backends, dashboards, data pipelines — engineered for the long run |
-
-<div align="center">
-  <sub>Free initial consultation · direct line to the developer · everything belongs to you — domain, hosting, code</sub>
-</div>
-
-<br />
-
-<!-- ─────────────────────────────  STACK  ───────────────────────────── -->
-<img src="./assets/stack.svg" alt="Tech stack — TypeScript, React, Next.js, React Native, Node.js, NestJS, C#, PostgreSQL, Oracle, Redis, EDI, SAP, Docker, Cloudflare" width="100%" />
-
-<br />
-<br />
-
-<!-- ─────────────────────────────  ANALYTICS  ───────────────────────────── -->
-## GitHub Analytics
-
-<div align="center">
-  <img height="185em" src="https://github-readme-stats.vercel.app/api?username=iomid23&show_icons=true&hide_border=true&bg_color=0A0E14&title_color=3DDC97&text_color=93A1B3&icon_color=E0A82E&border_radius=16&rank_icon=github" alt="Omid Amini GitHub stats" />
-  <img height="185em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=iomid23&layout=compact&hide_border=true&bg_color=0A0E14&title_color=3DDC97&text_color=93A1B3&border_radius=16&langs_count=8" alt="Most used languages" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=iomid23&hide_border=true&background=0A0E14&ring=3DDC97&fire=E0A82E&currStreakLabel=3DDC97&currStreakNum=F2F6FA&sideNums=F2F6FA&sideLabels=93A1B3&dates=58657A&border_radius=16&card_width=500" alt="GitHub streak" />
-</div>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=iomid23&hide_border=true&bg_color=0A0E14&color=93A1B3&line=3DDC97&point=E0A82E&area=true&area_color=2FBF71&radius=16" alt="Contribution activity" width="100%" />
-
-<div align="center">
-  <sub>Most of my production code lives in <b>private enterprise repositories</b> — the numbers above are the tip of the iceberg. Visit <a href="https://omidamini.de">omidamini.de</a> for the full picture.</sub>
-</div>
-
-<br />
-
-<!-- ─────────────────────────────  CTA  ───────────────────────────── -->
-<a href="https://omidamini.de">
-  <img src="./assets/cta.svg" alt="Have a project in mind? Free initial consultation — visit omidamini.de" width="100%" />
+<a href="https://omidamini.de/en#contact">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contact-dark.svg" />
+    <img src="./assets/contact-light.svg" alt="Have an integration or platform project? Free first call, fixed price after. omidamini.de" width="100%" />
+  </picture>
 </a>
 
-<div align="center">
-  <sub>📍 Düsseldorf, Germany &nbsp;·&nbsp; 🌐 <a href="https://omidamini.de">omidamini.de</a> &nbsp;·&nbsp; 📧 <a href="mailto:aminiomid1994@gmail.com">aminiomid1994@gmail.com</a> &nbsp;·&nbsp; 💼 <a href="https://linkedin.com/in/iomid23">LinkedIn</a></sub>
-</div>
+<p align="center"><sub>Remscheid, Germany · working remotely across Germany and Europe · German, English, Kurdish, Persian</sub></p>
