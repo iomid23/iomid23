@@ -40,7 +40,7 @@ def header(t):
     <text x="64" y="218" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">EDI and SAP integration</text>
     <text x="64" y="270" font-size="46" font-weight="800" fill="{t["text"]}" letter-spacing="-1.4">for mid-sized companies</text>
     <text x="64" y="310" font-size="18" fill="{t["muted"]}">Order pipelines, enterprise platforms and my own product, Rebar.</text>
-    <text x="64" y="342" font-size="15" fill="{t["muted"]}"><tspan font-weight="800" fill="{t["accent"]}">&gt; 92%</tspan> fewer processing errors at <tspan font-weight="700" fill="{t["text"]}">4,000+</tspan> records a day</text>
+    <text x="64" y="342" font-size="15" fill="{t["muted"]}"><tspan font-weight="800" fill="{t["accent"]}">&gt; 90%</tspan> fewer processing errors at <tspan font-weight="700" fill="{t["text"]}">4,000+</tspan> records a day</text>
   </g>
   <defs><clipPath id="photo"><rect x="896" y="70" width="240" height="240" rx="18"/></clipPath></defs>
   <image x="896" y="70" width="240" height="240" preserveAspectRatio="xMidYMid slice" clip-path="url(#photo)" href="data:image/jpeg;base64,{PORTRAIT}"/>
